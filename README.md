@@ -7,10 +7,10 @@ This project simulates a working piano with clickable keys and keyboard input us
 
 ## 🚀 Features
 
-- 🎼 **Real Piano Simulation** – Built-in sound playback with native `<audio>` tag
-- ⌨️ **Keyboard Key Mapping** – Press mapped keys to trigger specific piano notes
-- 💻 **No external libraries** – Lightweight and fast, no dependencies required
-- 🎨 **Minimal UI** – Clean layout with easy usability
+- 🎼 **Real Piano Simulation** – Built-in sound playback using native `<audio>` tag  
+- ⌨️ **Keyboard Key Mapping** – Press mapped keys to trigger specific piano notes  
+- 💻 **No External Libraries** – Lightweight and fast, no dependencies required  
+- 🎨 **Minimal UI** – Clean layout with easy usability  
 
 ---
 
@@ -38,5 +38,13 @@ This project simulates a working piano with clickable keys and keyboard input us
 
 ---
 
-## 📁 Files Included
+## 🧑‍💻 Author
 
+**Chirag Parmar**  
+_BCA Student | Passionate Frontend Developer_
+
+---
+
+## 📬 Feedback
+
+Feel free to connect with me or suggest improvements!
