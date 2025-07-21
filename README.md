@@ -24,7 +24,7 @@ This project simulates a working piano with clickable keys and keyboard input us
 
 ## 🖥️ Live Demo
 
-👉 [Click here to try the Piano Web App](https://your-live-demo-link.com)  
+👉 [Click here to try the Piano Web App](https://piano-16.netlify.app/)  
 *(Best viewed on desktop with keyboard access)*
 
 ---
