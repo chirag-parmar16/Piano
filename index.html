@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beginner Piano - Learn Piano Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <i class="fas fa-music"></i>
+        <span>PianoLearn</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#piano">Play Piano</a></li>
+        <li><a href="#keymap">Key Map</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Learn Piano Online</h1>
+        <p>
+          Master the piano with our interactive online piano. Perfect for
+          beginners!
+        </p>
+        <a href="#piano" class="cta-button">Start Playing Now</a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          alt="Piano Keys"
+        />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Our Piano</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Welcome to PianoLearn, your digital piano learning companion. Our
+              interactive piano simulator is designed specifically for
+              beginners, offering a seamless learning experience with three full
+              octaves of notes.
+            </p>
+            <p>
+              Whether you're just starting your musical journey or want to
+              practice your skills, our piano provides the perfect platform to
+              learn and play.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <i class="fas fa-keyboard"></i>
+              <h3>36 Keys</h3>
+              <p>Three Full Octaves</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-music"></i>
+              <h3>Real Sound</h3>
+              <p>High Quality Audio</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-laptop"></i>
+              <h3>Easy to Use</h3>
+              <p>Keyboard & Mouse Support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Why Choose Our Piano?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Perfect for Beginners</h3>
+            <p>
+              Start your musical journey with our beginner-friendly interface
+              and clear note labels.
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-keyboard"></i>
+            <h3>Keyboard Support</h3>
+            <p>
+              Play using your computer keyboard with our intuitive key mapping
+              system.
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-volume-up"></i>
+            <h3>Real Piano Sound</h3>
+            <p>
+              Experience authentic piano sounds with our high-quality audio
+              engine.
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-book"></i>
+            <h3>Learn at Your Pace</h3>
+            <p>Practice anytime, anywhere with our accessible online piano.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Existing Piano Section (Untouched) -->
+    <section id="piano" class="piano-section">
+      <h2>Play Piano</h2>
+      <div class="piano-container">
+        <div class="piano">
+          <!-- First Octave -->
+          <div class="key white" data-note="C3"><span>C3</span></div>
+          <div class="key black" data-note="C#3"><span>C#3</span></div>
+          <div class="key white" data-note="D3"><span>D3</span></div>
+          <div class="key black" data-note="D#3"><span>D#3</span></div>
+          <div class="key white" data-note="E3"><span>E3</span></div>
+          <div class="key white" data-note="F3"><span>F3</span></div>
+          <div class="key black" data-note="F#3"><span>F#3</span></div>
+          <div class="key white" data-note="G3"><span>G3</span></div>
+          <div class="key black" data-note="G#3"><span>G#3</span></div>
+          <div class="key white" data-note="A3"><span>A3</span></div>
+          <div class="key black" data-note="A#3"><span>A#3</span></div>
+          <div class="key white" data-note="B3"><span>B3</span></div>
+
+          <!-- Second Octave (Middle) -->
+          <div class="key white" data-note="C4"><span>C4</span></div>
+          <div class="key black" data-note="C#4"><span>C#4</span></div>
+          <div class="key white" data-note="D4"><span>D4</span></div>
+          <div class="key black" data-note="D#4"><span>D#4</span></div>
+          <div class="key white" data-note="E4"><span>E4</span></div>
+          <div class="key white" data-note="F4"><span>F4</span></div>
+          <div class="key black" data-note="F#4"><span>F#4</span></div>
+          <div class="key white" data-note="G4"><span>G4</span></div>
+          <div class="key black" data-note="G#4"><span>G#4</span></div>
+          <div class="key white" data-note="A4"><span>A4</span></div>
+          <div class="key black" data-note="A#4"><span>A#4</span></div>
+          <div class="key white" data-note="B4"><span>B4</span></div>
+
+          <!-- Third Octave -->
+          <div class="key white" data-note="C5"><span>C5</span></div>
+          <div class="key black" data-note="C#5"><span>C#5</span></div>
+          <div class="key white" data-note="D5"><span>D5</span></div>
+          <div class="key black" data-note="D#5"><span>D#5</span></div>
+          <div class="key white" data-note="E5"><span>E5</span></div>
+          <div class="key white" data-note="F5"><span>F5</span></div>
+          <div class="key black" data-note="F#5"><span>F#5</span></div>
+          <div class="key white" data-note="G5"><span>G5</span></div>
+          <div class="key black" data-note="G#5"><span>G#5</span></div>
+          <div class="key white" data-note="A5"><span>A5</span></div>
+          <div class="key black" data-note="A#5"><span>A#5</span></div>
+          <div class="key white" data-note="B5"><span>B5</span></div>
+        </div>
+      </div>
+
+      <button id="toggle-labels">Show/Hide Note Labels</button>
+    </section>
+
+    <!-- Existing Key Map Section (Untouched) -->
+    <section id="keymap" class="keymap-section">
+      <div class="key-chart">
+        <h2>Keyboard to Piano Key Map</h2>
+
+        <div class="tab-container">
+          <div class="tabs">
+            <button class="tab-button active" data-tab-target="#octave1">
+              Octave 1 (C3-B3)
+            </button>
+            <button class="tab-button" data-tab-target="#octave2">
+              Octave 2 (C4-B4)
+            </button>
+            <button class="tab-button" data-tab-target="#octave3">
+              Octave 3 (C5-B5)
+            </button>
+          </div>
+
+          <div class="tab-content">
+            <div id="octave1" data-tab-content class="active">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Keyboard Key</th>
+                    <th>Piano Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Z</td>
+                    <td>C3</td>
+                  </tr>
+                  <tr>
+                    <td>S</td>
+                    <td>C#3</td>
+                  </tr>
+                  <tr>
+                    <td>X</td>
+                    <td>D3</td>
+                  </tr>
+                  <tr>
+                    <td>D</td>
+                    <td>D#3</td>
+                  </tr>
+                  <tr>
+                    <td>C</td>
+                    <td>E3</td>
+                  </tr>
+                  <tr>
+                    <td>V</td>
+                    <td>F3</td>
+                  </tr>
+                  <tr>
+                    <td>G</td>
+                    <td>F#3</td>
+                  </tr>
+                  <tr>
+                    <td>B</td>
+                    <td>G3</td>
+                  </tr>
+                  <tr>
+                    <td>H</td>
+                    <td>G#3</td>
+                  </tr>
+                  <tr>
+                    <td>N</td>
+                    <td>A3</td>
+                  </tr>
+                  <tr>
+                    <td>J</td>
+                    <td>A#3</td>
+                  </tr>
+                  <tr>
+                    <td>M</td>
+                    <td>B3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="octave2" data-tab-content>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Keyboard Key</th>
+                    <th>Piano Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>C4</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>C#4</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>D4</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>D#4</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>E4</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>F4</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>F#4</td>
+                  </tr>
+                  <tr>
+                    <td>T</td>
+                    <td>G4</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>G#4</td>
+                  </tr>
+                  <tr>
+                    <td>Y</td>
+                    <td>A4</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>A#4</td>
+                  </tr>
+                  <tr>
+                    <td>U</td>
+                    <td>B4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="octave3" data-tab-content>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Keyboard Key</th>
+                    <th>Piano Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>I</td>
+                    <td>C5</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>C#5</td>
+                  </tr>
+                  <tr>
+                    <td>O</td>
+                    <td>D5</td>
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>D#5</td>
+                  </tr>
+                  <tr>
+                    <td>P</td>
+                    <td>E5</td>
+                  </tr>
+                  <tr>
+                    <td>[</td>
+                    <td>F5</td>
+                  </tr>
+                  <tr>
+                    <td>=</td>
+                    <td>F#5</td>
+                  </tr>
+                  <tr>
+                    <td>]</td>
+                    <td>G5</td>
+                  </tr>
+                  <tr>
+                    <td>\</td>
+                    <td>G#5</td>
+                  </tr>
+                  <tr>
+                    <td>;</td>
+                    <td>A5</td>
+                  </tr>
+                  <tr>
+                    <td>'</td>
+                    <td>A#5</td>
+                  </tr>
+                  <tr>
+                    <td>Enter</td>
+                    <td>B5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Existing How to Use Section (Untouched) -->
+    <section id="how-to-use" class="instructions-section">
+      <div class="instructions">
+        <h2>How to Use</h2>
+        <p>
+          Welcome to the Simple Beginner Piano! You can play notes by clicking
+          on the piano keys with your mouse or by using the corresponding keys
+          on your computer keyboard as shown in the key map above.
+        </p>
+        <p>
+          This piano includes three octaves of notes (C3 to B5). The white keys
+          are the natural notes and the black keys are the sharps/flats.
+        </p>
+        <p>
+          Use the keyboard keys as shown in the chart above to play different
+          octaves:
+        </p>
+        <ul>
+          <li>Bottom row (Z-M): First octave (C3-B3)</li>
+          <li>Top row (Q-U): Second octave (C4-B4)</li>
+          <li>Upper row (I-Enter): Third octave (C5-B5)</li>
+        </ul>
+        <p>Have fun practicing!</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <i class="fas fa-music"></i>
+            <span>PianoLearn</span>
+            <p>Learn piano online, anytime, anywhere.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#piano">Play Piano</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Connect With Us</h4>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 PianoLearn. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
