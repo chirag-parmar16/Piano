@@ -461,27 +461,7 @@ section {
   position: relative;
 }
 
-/*.piano-container {
-  background: var(--gradient-dark);
-  border-radius: 20px;
-  box-shadow: var(--shadow-lg);
-  padding: 3rem 0 2rem 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  overflow-x: auto;
-}
 
-.piano {
-  position: relative;
-  display: flex;
-  margin: 0 auto;
-  padding: 20px 0;
-  min-width: 1200px;
-  background: #0080ff;
-  border-radius: 15px;
-  box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-  */
 .piano-container {
   background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
   border-radius: 20px 20px 0 0;
@@ -668,15 +648,12 @@ body.show-labels .key span {
 
 .key-chart {
   width: 100%;
-  max-width: 900px;
+  max-width: 1400px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  
   border-radius: 20px;
-  box-shadow: var(--shadow-lg);
+  
   padding: 2.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -688,7 +665,7 @@ body.show-labels .key span {
 /* Tab Navigation */
 .tab-container {
   margin: 1.5rem auto 2.5rem;
-  max-width: fit-content;
+  max-width: 1400px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 25px;
   padding: 0.5rem;
@@ -759,8 +736,8 @@ body.show-labels .key span {
 }
 
 .key-chart th {
-  background: var(--primary-color);
-  color: var(--white);
+  
+  
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -772,10 +749,15 @@ body.show-labels .key span {
 }
 
 .key-chart th:first-child {
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
   border-top-left-radius: 8px;
 }
 
 .key-chart th:last-child {
+  color: var(--white);
+  background: #000;
   border-top-right-radius: 8px;
 }
 
@@ -792,14 +774,15 @@ body.show-labels .key span {
 
 .key-chart tr:hover td {
   background: var(--light-bg);
+  color: #000;
 }
 
 /* Keyboard Key Styling */
 .key-chart td:first-child {
   font-family: "Courier New", monospace;
   font-weight: bold;
-  color: var(--primary-dark);
-  background: rgba(46, 204, 113, 0.1);
+  color: var(--white);
+  background: rgb(0, 0, 0);
   text-align: center;
   min-width: 70px;
   border-radius: 8px 0 0 8px;
